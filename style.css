@@ -1,0 +1,26 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height:25vh;
+    position: relative;
+    background-color: bisque;
+    padding: 10px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+    margin: 0 1px 3px 4px;
+        z-index: 3;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    color: rgb(255, 50, 77);   
+}
+.pic{
+        z-index: 4;
+}
