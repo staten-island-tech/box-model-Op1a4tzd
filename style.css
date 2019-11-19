@@ -16,11 +16,35 @@ html{
 }
 h1{
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate (-50%, -50%);
     color: rgb(255, 50, 77);   
+    z-index: 4;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+h2{
+
+    font-family: 'Alata', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    color: white;
+    z-index: 6;
+    letter-spacing: 1.5px;
+
 }
 .pic{
-        z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    z-index: 3;
+    height: 250px;
+}
+div{
+    z-index: 2;
+
 }
