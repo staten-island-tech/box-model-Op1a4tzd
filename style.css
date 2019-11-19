@@ -16,12 +16,12 @@ html{
 }
 h1{
     position: absolute;
-    top: 52%;
-    left: 50%;
+    top: 51%;
+    left: 52%;
     transform: translate (-50%, -50%);
     color: rgb(255, 50, 77);   
     z-index: 4;
-    font-size: 32px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 h2{
